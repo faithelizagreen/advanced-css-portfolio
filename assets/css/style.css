@@ -188,12 +188,39 @@ main {
 .grid-item h3 {
     font-size: 1.4rem;
 }
-@media screen and (max-width: 768px) {
-    .grid-item,
-    .grid-item:first-child {
-        grid-column: 1 / -1;
-    }
 
-    .grid-box {
-        grid-auto-rows: minmax(200px, 1fr);
-    }
+/* Contact Me Styling */
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.contact address a {
+    color: var(--dark-gray);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-style: normal;
+    background-image: linear-gradient(270deg, var(--dark-blue) 0%, var(--dark-blue) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+}
+
+.contact address a:hover {
+    background-size: 100% 88%;
+    color: var(--light-blue);
+}
+
+/* Footer Styling */
+footer  {
+    font-size: 1.0em;
+    text-align: center;
+    vertical-align: bottom;
+  }
