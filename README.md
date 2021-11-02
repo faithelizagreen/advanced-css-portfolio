@@ -1,6 +1,6 @@
 # Advanced CSS Portfolio
 
-**View**: *Live link*
+**View**: [Live Link](https://faithelizagreen.github.io/advanced-css-portfolio/)
 
 This website is built using advanced CSS techniques such as:
 
@@ -26,3 +26,9 @@ I designed this website using a **mobile first approach** by building out media 
 
 ## Desktop View
 ![screenshot](./assets/images/desktopscreen.png)
+
+# Credits
+
+**CSS RESET**
+
+- [Murtaugh Github Reset](https://github.com/murtaugh/HTML5-Reset/blob/master/assets/css/reset.css)
